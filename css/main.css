@@ -1,0 +1,176 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	font-family: 'Open Sans', sans-serif;
+	 
+}
+
+body {
+	font-weight: 100;
+}
+
+nav {
+	height: 15%;
+	background-color: #fe7e00;
+}
+
+nav img {
+	padding-left: 40px;
+	height: 100%;
+	width: 28%;
+}
+
+nav ul {
+	float: right;
+	margin-right: 20px;
+}
+
+nav li {
+	display: inline-block;
+	padding: 20px 15px 0 15px;
+}
+
+nav a {
+	text-decoration: none;
+	color: #fdcd87;
+	text-transform: uppercase;
+}
+
+form {
+	float: right;
+	padding-top: 3px;
+	padding-right: 10px;
+}
+
+form input {
+	border: none;
+	background-color: #f1f1f1;
+	color: black;
+	padding-top: 3px;
+	padding-right: 10px;
+	padding-left: 10px;
+	width: 180px;
+	height: 30px;
+	font-size: 12px;
+}
+
+
+.orange img {
+	float: left;
+	width: 30%;
+	padding-top: 5%;
+	padding-bottom: 15%;	
+}
+
+.motto {
+	color: #fe7e00;
+	width: 80%;
+	font-size: 25px;
+	font-family: 'Roboto', sans-serif;
+	
+
+}
+
+h1 {
+	font-weight: 100;
+}	
+
+section span {
+	color: #7accc8;
+	font-weight: bold;
+}
+
+section span:first-child {
+	color: #fe7e00;
+	font-family: 'Roboto', sans-serif;
+
+	
+}
+
+button {
+	padding: 20px 20px;
+	background-color: #7accc8;
+	color: #fff;
+	margin-right: 20px;
+	margin-left: 20px;
+	border: none;
+	border-radius: 2px; 
+}
+
+#quote {
+	background-color: #fe7e00;
+}
+
+footer {
+	height: 15%;
+	background-color: #7accc8;
+	margin-top: 15%;
+}
+
+@media (max-width: 805px) {
+	nav img {
+		width: 20%;
+		height: 80%;
+	}
+	nav li { padding: 20px 5px 0 5px;
+	}
+}
+
+@media (max-width: 698px) {
+	button {
+		width: 20%;
+		height: 10%;
+	}
+}
+
+@media (max-width: 666px) {
+	nav li:last-child {
+		display: none;
+	}
+	.motto {
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 550px) {
+	nav li {
+		font-size: smaller;
+	}
+}
+
+@media (max-width: 493px) {
+	form {
+		width: 30%;
+		height: 4%;
+	}
+	form i.fa {
+		display: none;
+	}
+	nav li {
+		font-size: x-small;
+	}
+	.motto {
+		font-size: smaller;
+	}
+}
+
+@media (max-width: 462px) {
+	button {
+		padding: 3px;
+		margin-right: 2px;
+		margin-left: 2px;
+		display: inline-block;
+	}
+	.motto {
+		font-size: x-small;
+	}
+	form {
+		width: 25%;
+		height: 3%;
+	}
+}
+@media (min-width: 1100px) {
+	.orange img {
+		padding-top: 1px;
+	}
+}
